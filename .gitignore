@@ -1,0 +1,5 @@
+**/.classpath
+**/.project
+**/.settings/**
+**/target/**
+result_url_regex.txt
