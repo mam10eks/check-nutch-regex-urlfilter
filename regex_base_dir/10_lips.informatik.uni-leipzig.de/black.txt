@@ -1,0 +1,12 @@
+http://lips.informatik.uni-leipzig.de/browse/results/field_year%3A2013
+http://lips.informatik.uni-leipzig.de/browse/results/field_authors%3A%22Attolini%2C%20Camille%20Stephan-Otto%22
+http://lips.informatik.uni-leipzig.de/browse/results/taxonomy%3A2139
+http://lips.informatik.uni-leipzig.de/browse/
+http://lips.informatik.uni-leipzig.de/browse/results/field_authors%3A%22F%C3%A4hnrich%2C%20Klaus-Peter%22
+http://lips.informatik.uni-leipzig.de/browse/results/taxonomy%3A940
+http://lips.informatik.uni-leipzig.de/browse/results/field_year%3A1997
+http://lips.informatik.uni-leipzig.de/browse/results/taxonomy%3A1539
+http://lips.informatik.uni-leipzig.de/browse/results/taxonomy%3A1477
+http://lips.informatik.uni-leipzig.de/node/653?page=4
+http://lips.informatik.uni-leipzig.de/node/
+http://lips.informatik.uni-leipzig.de/node/653?page=6

@@ -1,0 +1,13 @@
+# everything pointint to .../pub/... and .../files/... is always fine
++http://lips.informatik.uni-leipzig.de/pub/.*
++http://lips.informatik.uni-leipzig.de/files/.*
+
+# under .../browse we only want to page over the result pages
++http://lips.informatik.uni-leipzig.de/browse$
++http://lips.informatik.uni-leipzig.de/browse/results$
++http://lips.informatik.uni-leipzig.de/browse/results\?page=[0-9]+$
+
+# forbit everything else
+-http://lips.informatik.uni-leipzig.de.*
+
++http://.*.informatik.uni-leipzig.de.*

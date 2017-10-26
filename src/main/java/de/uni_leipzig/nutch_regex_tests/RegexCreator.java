@@ -2,28 +2,21 @@ package de.uni_leipzig.nutch_regex_tests;
 
 import java.io.File;
 import java.nio.file.Files;
-import java.nio.file.Paths;
-import java.util.Arrays;
+import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 import java.util.stream.Collectors;
 
+import lombok.Data;
 import lombok.SneakyThrows;
 
+@Data
 public class RegexCreator
 {
-	public static String FILE_BLACK = "black.txt";
-	
-	public static String FILE_WHITE = "white.txt";
-	
-	public static String FILE_REGEX = "url-regex.txt";
-	
-	public static void main(String[] args)
-	{
-		writeRegexFileTo(new File("result_url_regex.txt"));
-	}
+	private final File basisDirectory;
 	
 	@SneakyThrows
-	public static void writeRegexFileTo(File file)
+	public void writeRegexFileTo(File file)
 	{
 		if(file.exists())
 		{
@@ -31,51 +24,37 @@ public class RegexCreator
 		}
 		
 		file.createNewFile();
-		Files.write(file.toPath(), constructConcatenatedRegexFileContent(getAllRegexDirectories()).getBytes());
+		CheckThatAllRegexesTogetherYieldsToTheExpectedResult test = new CheckThatAllRegexesTogetherYieldsToTheExpectedResult(this);
+		test.checkThatFilterBehavesAsExpected(getBlackAndWhiteExampleDirectory());
+		
+		Files.write(file.toPath(), constructConcatenatedRegexFileContent().getBytes());
 	}
 	
-	public static String constructConcatenatedRegexFileContent(File[] regexDirectories)
+	public String constructConcatenatedRegexFileContent()
 	{
-		return Arrays.asList(regexDirectories).stream()
-			.map(f -> "# "+ f.getName() +"\n"+ extractContentOfFile(f.listFiles(), FILE_REGEX))
+		return getBlackAndWhiteExampleDirectory().stream()
+			.map(f -> "# "+ f.getExampleDirectory().getName() +"\n"+ f.getContentOfRegexFile())
 			.collect(Collectors.joining("\n\n"));
 	}
 	
-	public static final File[] getAllRegexDirectories()
+	public List<BlackAndWhiteExampleDirectory> getBlackAndWhiteExampleDirectory()
 	{
-		File resourcesDirectory = Paths.get("src"+ File.separator +"main"+ File.separator +"resources").toFile();
-		File[] ret = resourcesDirectory.listFiles();
+		List<BlackAndWhiteExampleDirectory> ret = new ArrayList<>();
 		
-		if(!Arrays.asList(ret).stream().allMatch(RegexCreator::isFileRegexDirectory))
+		for(File file : getBasisDirectory().listFiles())
 		{
-			throw new RuntimeException();
+			BlackAndWhiteExampleDirectory newExampleDirectory = new BlackAndWhiteExampleDirectory(file);
+			
+			if(!newExampleDirectory.isValid())
+			{
+				throw new RuntimeException("Directory '"+ file +"' is not valid");
+			}
+			
+			ret.add(newExampleDirectory);
 		}
+		
+		Collections.sort(ret);
 		
 		return ret;
-	}
-	
-	private static boolean isFileRegexDirectory(File file)
-	{
-		String tmpContent = null;
-		
-		return file != null && file.isDirectory() && file.listFiles() != null && file.listFiles().length == 3
-				&& (tmpContent = extractContentOfFile(file.listFiles(), FILE_BLACK)) != null && !tmpContent.trim().isEmpty()
-				&& (tmpContent = extractContentOfFile(file.listFiles(), FILE_WHITE)) != null && !tmpContent.trim().isEmpty()
-				&& (tmpContent = extractContentOfFile(file.listFiles(), FILE_REGEX)) != null && !tmpContent.trim().isEmpty();
-	}
-	
-	@SneakyThrows
-	public static String extractContentOfFile(File[] files, String filename)
-	{
-		if(files == null || filename == null)
-		{
-			return null;
-		}
-
-		List<File> matchingFiles = Arrays.asList(files).stream()
-			.filter(f -> filename.equals(f.getName()))
-			.collect(Collectors.toList());
-		
-		return matchingFiles.size() == 1 ? new String(Files.readAllBytes(matchingFiles.get(0).toPath())) : null;
 	}
 }

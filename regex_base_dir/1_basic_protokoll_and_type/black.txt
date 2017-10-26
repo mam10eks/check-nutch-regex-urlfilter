@@ -1,0 +1,4 @@
+http://lips.informatik.uni-leipzig.de/dummy.js
+http://lips.informatik.uni-leipzig.de/dummy.js?bla=hellow
+http://lips.informatik.uni-leipzig.de/dummy.avi
+http://lips.informatik.uni-leipzig.de/dummy.avi?bla=hellow
