@@ -10,3 +10,6 @@ http://lips.informatik.uni-leipzig.de/browse/results/taxonomy%3A1477
 http://lips.informatik.uni-leipzig.de/node/653?page=4
 http://lips.informatik.uni-leipzig.de/node/
 http://lips.informatik.uni-leipzig.de/node/653?page=6
+http://lips.informatik.uni-leipzig.de/pub/2006?order=field_year_value&sort=asc
+http://lips.informatik.uni-leipzig.de/pub/2006?sort=asc
+http://lips.informatik.uni-leipzig.de/pub/2006?sort=asc&order=field_year_value
