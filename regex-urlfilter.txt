@@ -27,4 +27,10 @@
 
 
 # 15_informatik.uni-leipzig.de
+# disallow everything under corpora.informatik
+-corpora.informatik.uni-leipzig.de
+
+
+# allow everything under informatik for the moment
 +informatik.uni-leipzig.de
+
