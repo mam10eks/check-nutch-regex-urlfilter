@@ -3,3 +3,10 @@ http://corpora.informatik.uni-leipzig.de/de?corpusId=deu_newscrawl_2011
 http://corpora.informatik.uni-leipzig.de/en/res?corpusId=eng-za_web_2014&word=comment
 http://corpora.informatik.uni-leipzig.de/de/res?corpusId=deu_newscrawl_2011&word=ums+Leben
 http://corpora.informatik.uni-leipzig.de/en/res?corpusId=rus_mixed_2013&word=%D0%BD%D0%B0%D1%88%D0%B5
+http://www.informatik.uni-leipzig.de/~meyer/index.php?d=12&m=01&y=15
+http://www.informatik.uni-leipzig.de/~meyer/?y=15
+http://www.informatik.uni-leipzig.de/~meyer/?d=15
+http://www.informatik.uni-leipzig.de/~meyer/?m=15
+http://www.informatik.uni-leipzig.de/~meyer/&y=15
+http://www.informatik.uni-leipzig.de/~meyer/&d=15
+http://www.informatik.uni-leipzig.de/~meyer/&m=15
