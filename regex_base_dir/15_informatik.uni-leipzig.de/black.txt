@@ -12,3 +12,11 @@ http://www.informatik.uni-leipzig.de/~meyer/&d=15
 http://www.informatik.uni-leipzig.de/~meyer/&m=15
 https://olat-pa.informatik.uni-leipzig.dea
 https://olat.informatik.uni-leipzig.dea
+http://www.informatik.uni-leipzig.de/~hai/spgm/
+http://www.informatik.uni-leipzig.de/~hai/spgm/index.php?spgmGal=Quangbinh_Xangsane
+http://www.informatik.uni-leipzig.de/~hai/spgm/index.php?spgmGal=Quangbinh_Xangsane&spgmPic=5&spgmFilters=#pic
+http://www.informatik.uni-leipzig.de/~duc/amlich/
+http://www.informatik.uni-leipzig.de/~duc/amlich/PHP/index.php?dd=11&mm=3&yy=2018
+http://www.informatik.uni-leipzig.de/~duc/Dict/
+http://www.informatik.uni-leipzig.de/~duc/TD/td/index.php?bpos=72&db=ev
+http://www.informatik.uni-leipzig.de/~duc/TD/td/index.php?bpos=228&db=dv
