@@ -10,3 +10,5 @@ http://www.informatik.uni-leipzig.de/~meyer/?m=15
 http://www.informatik.uni-leipzig.de/~meyer/&y=15
 http://www.informatik.uni-leipzig.de/~meyer/&d=15
 http://www.informatik.uni-leipzig.de/~meyer/&m=15
+https://olat-pa.informatik.uni-leipzig.dea
+https://olat.informatik.uni-leipzig.dea

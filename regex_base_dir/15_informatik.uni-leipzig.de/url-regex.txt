@@ -5,6 +5,13 @@
 -informatik.uni-leipzig.de/~meyer.*[?&]d=[0-9]+.*
 -informatik.uni-leipzig.de/~meyer.*[?&]m=[0-9]+.*
 
+
++https://olat-pa.informatik.uni-leipzig.de/dmz/$
++https://olat.informatik.uni-leipzig.de/dmz/$
+
+-https://olat-pa.informatik.uni-leipzig.de
+-https://olat.informatik.uni-leipzig.de
+
 # allow everything under informatik for the moment
 +informatik.uni-leipzig.de
 
