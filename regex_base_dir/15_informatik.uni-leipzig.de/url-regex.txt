@@ -12,6 +12,13 @@
 -https://olat-pa.informatik.uni-leipzig.de
 -https://olat.informatik.uni-leipzig.de
 
+-www.informatik.uni-leipzig.de/~hai/spgm/
+
+-www.informatik.uni-leipzig.de/~duc/Dict/
+-www.informatik.uni-leipzig.de/~duc/amlich/
+-www.informatik.uni-leipzig.de/~duc/TD/
+
+
 # allow everything under informatik for the moment
 +informatik.uni-leipzig.de
 
