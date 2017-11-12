@@ -2,4 +2,8 @@
 -[?&]print=
 -[?&]sort=
 
+-www.math.uni-leipzig.de/fkc/kalender/action~month
+-www.math.uni-leipzig.de/fkc/kalender/action~week
+-www.math.uni-leipzig.de/fkc/kalender/action~oneday
+
 +math.uni-leipzig.de
