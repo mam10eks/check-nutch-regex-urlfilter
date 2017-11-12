@@ -1,1 +1,6 @@
 http://www.meth.uni-leipzig.de
+https://www.math.uni-leipzig.de/cms/en/ua/WS17/lhstm/?print=true
+https://www.math.uni-leipzig.de/cms/de/ua/WS17/tgmhg/?print=true&sort=Bezeichnung
+https://www.math.uni-leipzig.de/cms/de/ua/WS17/tgmhg/?sort=Bezeichnung&print=true
+https://www.math.uni-leipzig.de/cms/de/ua/WS17/tgmhg/?sort=Bezeichnung
+http://www.math.uni-leipzig.de/fachschaft/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.math.uni-leipzig.de%2Ffachschaft%2F2009%2F08%2Fstura-wahlpruefsteine-zur-landtagswahl%2F

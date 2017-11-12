@@ -1,1 +1,5 @@
+-www.math.uni-leipzig.de/fachschaft/wp-json
+-[?&]print=
+-[?&]sort=
+
 +math.uni-leipzig.de
