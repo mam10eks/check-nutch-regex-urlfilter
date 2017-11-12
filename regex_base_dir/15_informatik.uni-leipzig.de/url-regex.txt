@@ -17,6 +17,11 @@
 -www.informatik.uni-leipzig.de/~duc/Dict/
 -www.informatik.uni-leipzig.de/~duc/amlich/
 -www.informatik.uni-leipzig.de/~duc/TD/
+-www.informatik.uni-leipzig.de/~duc/PHP
+
+
+-www.informatik.uni-leipzig.de/stdplan/stdplan.phtml?
+-www.informatik.uni-leipzig.de:8080/SGML/Documents
 
 
 # allow everything under informatik for the moment

@@ -20,3 +20,7 @@ http://www.informatik.uni-leipzig.de/~duc/amlich/PHP/index.php?dd=11&mm=3&yy=201
 http://www.informatik.uni-leipzig.de/~duc/Dict/
 http://www.informatik.uni-leipzig.de/~duc/TD/td/index.php?bpos=72&db=ev
 http://www.informatik.uni-leipzig.de/~duc/TD/td/index.php?bpos=228&db=dv
+http://www.informatik.uni-leipzig.de/~duc/PHP/
+http://www.informatik.uni-leipzig.de/~duc/PHP/td.php?bpos=20&db=
+http://www.informatik.uni-leipzig.de/stdplan/stdplan.phtml?cmd=doz_plan&new_sem=20092009
+http://www.informatik.uni-leipzig.de:8080/SGML/Documents?root=ss05&page=document.vorlesungen.vorlesung|vllab~7903

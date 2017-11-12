@@ -6,3 +6,4 @@ https://olat-pa.informatik.uni-leipzig.de/dmz/
 https://olat.informatik.uni-leipzig.de/dmz/
 http://www.informatik.uni-leipzig.de/~hai/
 http://www.informatik.uni-leipzig.de/~duc/
+http://www.informatik.uni-leipzig.de/stdplan/sps.phtml
