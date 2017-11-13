@@ -28,6 +28,8 @@
 -robot.informatik.uni-leipzig.de/software/lpzrobots-[0-9.]+-doc
 -robot.informatik.uni-leipzig.de/software/doc
 
+-pcai003.informatik.uni-leipzig.de/kosemnet/.+
+
 # allow everything under informatik for the moment
 +informatik.uni-leipzig.de
 

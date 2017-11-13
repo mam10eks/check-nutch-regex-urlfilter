@@ -7,3 +7,4 @@ https://olat.informatik.uni-leipzig.de/dmz/
 http://www.informatik.uni-leipzig.de/~hai/
 http://www.informatik.uni-leipzig.de/~duc/
 http://www.informatik.uni-leipzig.de/stdplan/sps.phtml
+http://pcai003.informatik.uni-leipzig.de/kosemnet/
