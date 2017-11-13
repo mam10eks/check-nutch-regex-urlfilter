@@ -7,12 +7,18 @@ import java.util.stream.Stream;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.nutch.net.URLFilter;
 import org.apache.nutch.urlfilter.regex.RegexURLFilter;
+
 import org.junit.Assert;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import lombok.SneakyThrows;
 
 public class CheckThatAllRegexesTogetherYieldsToTheExpectedResult
 {
+	private static final Logger LOGGER = LoggerFactory.getLogger(CheckThatAllRegexesTogetherYieldsToTheExpectedResult.class);
+
 	private final URLFilter urlFilter;
 	
 	@SneakyThrows
@@ -25,6 +31,7 @@ public class CheckThatAllRegexesTogetherYieldsToTheExpectedResult
 	{
 		for(BlackAndWhiteExampleDirectory test : tests)
 		{
+			LOGGER.info("Check black and white examples for '{}'", test.getExampleDirectory());
 			checkThatAllWhitelistUrlsAreNotFiltered(test);
 			checkThatAllBlacklistUrlsAreFiltered(test);
 		}
