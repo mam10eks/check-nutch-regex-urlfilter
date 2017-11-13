@@ -24,3 +24,5 @@ http://www.informatik.uni-leipzig.de/~duc/PHP/
 http://www.informatik.uni-leipzig.de/~duc/PHP/td.php?bpos=20&db=
 http://www.informatik.uni-leipzig.de/stdplan/stdplan.phtml?cmd=doz_plan&new_sem=20092009
 http://www.informatik.uni-leipzig.de:8080/SGML/Documents?root=ss05&page=document.vorlesungen.vorlesung|vllab~7903
+http://robot.informatik.uni-leipzig.de/software/packages/src/current/doc/images/guilogger/?C=D;O=A
+http://robot.informatik.uni-leipzig.de/software/packages/

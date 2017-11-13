@@ -1,0 +1,10 @@
+#idea at http://robot.informatik.uni-leipzig.de/software/packages/?C=N;O=A
+
+http://robot.informatik.uni-leipzig.de/?C=N;O=A
+http://robot.informatik.uni-leipzig.de/?C=N;O=D
+http://robot.informatik.uni-leipzig.de/software/packages/?C=D;O=A
+http://robot.informatik.uni-leipzig.de/software/packages/?C=D;O=A
+http://robot.informatik.uni-leipzig.de/software/packages/?C=D;O=D
+http://robot.informatik.uni-leipzig.de/software/packages/?a=b&C=D;O=A&blaa=hello
+http://robot.informatik.uni-leipzig.de/software/packages/?a=b&C=D;O=D
+http://robot.informatik.uni-leipzig.de/software/packages/?a=b&C=D;O=A&blaa=hello

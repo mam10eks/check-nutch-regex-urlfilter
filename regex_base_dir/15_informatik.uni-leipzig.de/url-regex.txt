@@ -23,6 +23,7 @@
 -www.informatik.uni-leipzig.de/stdplan/stdplan.phtml?
 -www.informatik.uni-leipzig.de:8080/SGML/Documents
 
+-robot.informatik.uni-leipzig.de/software/packages/
 
 # allow everything under informatik for the moment
 +informatik.uni-leipzig.de
