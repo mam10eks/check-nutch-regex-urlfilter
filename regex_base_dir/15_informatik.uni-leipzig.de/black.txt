@@ -32,3 +32,5 @@ http://robot.informatik.uni-leipzig.de/software/lpzrobots_doc-0.4/html/main.html
 http://robot.informatik.uni-leipzig.de/software/lpzrobots-0.5-doc/html/dir_0618ac6afbf9610ee7e2808eb82ee462.html
 http://robot.informatik.uni-leipzig.de/software/lpzrobots-0.4-doc/html/dir_0618ac6afbf9610ee7e2808eb82ee462.html
 http://robot.informatik.uni-leipzig.de/software/lpzrobots-2-doc/html/dir_0618ac6afbf9610ee7e2808eb82ee462.html
+http://robot.informatik.uni-leipzig.de/software/doc/html/lpzviewer_8h.html
+http://robot.informatik.uni-leipzig.de/software/doc/

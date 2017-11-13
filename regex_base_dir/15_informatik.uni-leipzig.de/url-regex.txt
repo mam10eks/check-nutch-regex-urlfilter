@@ -26,6 +26,7 @@
 -robot.informatik.uni-leipzig.de/software/packages/
 -robot.informatik.uni-leipzig.de/software/lpzrobots_doc-
 -robot.informatik.uni-leipzig.de/software/lpzrobots-[0-9.]+-doc
+-robot.informatik.uni-leipzig.de/software/doc
 
 # allow everything under informatik for the moment
 +informatik.uni-leipzig.de
