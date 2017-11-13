@@ -24,6 +24,7 @@
 -www.informatik.uni-leipzig.de:8080/SGML/Documents
 
 -robot.informatik.uni-leipzig.de/software/packages/
+-robot.informatik.uni-leipzig.de/software/lpzrobots_doc-
 
 # allow everything under informatik for the moment
 +informatik.uni-leipzig.de
