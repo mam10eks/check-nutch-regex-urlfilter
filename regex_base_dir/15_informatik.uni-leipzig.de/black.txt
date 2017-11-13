@@ -34,5 +34,7 @@ http://robot.informatik.uni-leipzig.de/software/lpzrobots-0.4-doc/html/dir_0618a
 http://robot.informatik.uni-leipzig.de/software/lpzrobots-2-doc/html/dir_0618ac6afbf9610ee7e2808eb82ee462.html
 http://robot.informatik.uni-leipzig.de/software/doc/html/lpzviewer_8h.html
 http://robot.informatik.uni-leipzig.de/software/doc/
+http://robot.informatik.uni-leipzig.de/software/current/lpzrobots-0.7-doc/html/invertablemodel_8h_source.html
+http://robot.informatik.uni-leipzig.de/software/current/lpzrobots-0.5-doc/
 http://pcai003.informatik.uni-leipzig.de/kosemnet/view/?r=http%3A%2F%2Fkosemnet.de%2FData%2FArticle%2Fdjokic-05-01
 http://pcai003.informatik.uni-leipzig.de/kosemnet/model/info/
