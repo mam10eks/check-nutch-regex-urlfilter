@@ -38,3 +38,4 @@ http://robot.informatik.uni-leipzig.de/software/current/lpzrobots-0.7-doc/html/i
 http://robot.informatik.uni-leipzig.de/software/current/lpzrobots-0.5-doc/
 http://pcai003.informatik.uni-leipzig.de/kosemnet/view/?r=http%3A%2F%2Fkosemnet.de%2FData%2FArticle%2Fdjokic-05-01
 http://pcai003.informatik.uni-leipzig.de/kosemnet/model/info/
+http://robot.informatik.uni-leipzig.de/software/current/doc/html/barrel2masses2nd_8h.html
