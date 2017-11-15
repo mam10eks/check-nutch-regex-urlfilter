@@ -1,4 +1,5 @@
 http://wwwdup.uni-leipzig.de/~sportwi/fakultaet/zentrale-einrichtungen/dekanat/
+http://itk.spowi.uni-leipzig.de
 http://wwwdup.uni-leipzig.de/~sportwi/fakultaet/institute-fachgebiete/btw-sportarten-ii/
 http://wwwdup.uni-leipzig.de/~sportwi/fakultaet/institute-fachgebiete/btw-sportarten-i/
 http://wwwdup.uni-leipzig.de/~sportwi/fakultaet/institute-fachgebiete/abtw/
