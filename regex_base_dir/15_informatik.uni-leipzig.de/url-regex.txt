@@ -23,12 +23,6 @@
 -www.informatik.uni-leipzig.de/stdplan/stdplan.phtml?
 -www.informatik.uni-leipzig.de:8080/SGML/Documents
 
--robot.informatik.uni-leipzig.de/software/packages/
--robot.informatik.uni-leipzig.de/software/lpzrobots_doc-
--robot.informatik.uni-leipzig.de/software/lpzrobots-[0-9.]+-doc
--robot.informatik.uni-leipzig.de/.*/doc/
--robot.informatik.uni-leipzig.de/software/current/[a-zA-Z0-9.-]+-doc/
-
 -pcai003.informatik.uni-leipzig.de/kosemnet/.+
 
 # allow everything under informatik for the moment
