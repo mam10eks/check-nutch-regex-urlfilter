@@ -7,3 +7,5 @@ http://www.informatik.uni-leipzig.de/~thank/video/tbnt.wmv?blaa=a
 http://robot.informatik.uni-leipzig.de./Videos/DEP/Video4a_hq.flv
 https://www.facebook.com/
 http://www.facebook.com/
+http://robot.informatik.uni-leipzig.de/videos/multischlange/FatMan2.m1v
+http://robot.informatik.uni-leipzig.de/Videos/CogDepr/2007/cogdepr_2wheeled.m2v
