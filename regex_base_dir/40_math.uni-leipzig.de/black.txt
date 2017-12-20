@@ -1,4 +1,3 @@
-http://www.meth.uni-leipzig.de
 https://www.math.uni-leipzig.de/cms/en/ua/WS17/lhstm/?print=true
 https://www.math.uni-leipzig.de/cms/de/ua/WS17/tgmhg/?print=true&sort=Bezeichnung
 https://www.math.uni-leipzig.de/cms/de/ua/WS17/tgmhg/?sort=Bezeichnung&print=true

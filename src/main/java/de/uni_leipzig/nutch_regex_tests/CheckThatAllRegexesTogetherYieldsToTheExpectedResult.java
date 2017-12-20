@@ -49,8 +49,7 @@ public class CheckThatAllRegexesTogetherYieldsToTheExpectedResult
 	{
 		List<String> blacklistUrls = extractUrls(exampleDirectory.getContentOfBlackListFile());
 		
-		Assert.assertNotEquals("White and Blacklist must at least contain one example", 0, blacklistUrls.size());
-		Assert.assertEquals(0, applyUrlFilter(blacklistUrls).size());
+		Assert.assertEquals("Following urls should be filtered: "+ applyUrlFilter(blacklistUrls),0, applyUrlFilter(blacklistUrls).size());
 	}
 	
 	private List<String> applyUrlFilter(List<String> urls)

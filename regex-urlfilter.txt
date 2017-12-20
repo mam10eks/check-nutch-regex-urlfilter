@@ -3,8 +3,14 @@
 
 # skip image and other suffixes we can't yet parse
 # for a more extensive coverage use the urlfilter-suffix plugin
--\.(gif|GIF|jpg|JPG|png|PNG|ico|ICO|css|CSS|sit|SIT|eps|EPS|wmf|WMF|zip|ZIP|mpg|MPG|xls|XLS|gz|GZ|rpm|RPM|tgz|TGZ|mov|MOV|exe|EXE|jpeg|JPEG|bmp|BMP|js|JS|avi|flv)$
--\.(gif|GIF|jpg|JPG|png|PNG|ico|ICO|css|CSS|sit|SIT|eps|EPS|wmf|WMF|zip|ZIP|mpg|MPG|xls|XLS|gz|GZ|rpm|RPM|tgz|TGZ|mov|MOV|exe|EXE|jpeg|JPEG|bmp|BMP|js|JS|avi|flv)\?.*
+-\.(gif|GIF|jpg|JPG|png|PNG|ico|ICO|css|CSS|sit|SIT|eps|EPS|wmf|WMF|zip|ZIP|mpg|MPG|xls|XLS|gz|GZ|rpm|RPM|tgz|TGZ|mov|MOV|exe|EXE|jpeg|JPEG|bmp|BMP|js|JS|avi|flv|wmv|WMV|m1v|M1V|m2v|M2V)$
+-\.(gif|GIF|jpg|JPG|png|PNG|ico|ICO|css|CSS|sit|SIT|eps|EPS|wmf|WMF|zip|ZIP|mpg|MPG|xls|XLS|gz|GZ|rpm|RPM|tgz|TGZ|mov|MOV|exe|EXE|jpeg|JPEG|bmp|BMP|js|JS|avi|flv|wmv|WMV|m1v|M1V|m2v|M2V)[\?&].*
+
+-.*/wp-json/.*
+
+
+# 3_apache_webserver_file_browser
+-[?&]C=[A-Za-z]+;O=[ADad]
 
 
 # 10_lips.informatik.uni-leipzig.de
@@ -46,8 +52,89 @@
 -www.informatik.uni-leipzig.de/~duc/Dict/
 -www.informatik.uni-leipzig.de/~duc/amlich/
 -www.informatik.uni-leipzig.de/~duc/TD/
+-www.informatik.uni-leipzig.de/~duc/PHP
 
+
+-www.informatik.uni-leipzig.de/stdplan/stdplan.phtml?
+-www.informatik.uni-leipzig.de:8080/SGML/Documents
+
+-pcai003.informatik.uni-leipzig.de/kosemnet/.+
 
 # allow everything under informatik for the moment
 +informatik.uni-leipzig.de
 
+
+
+# 16_robot.informatik.uni-leipzig.de
++robot.informatik.uni-leipzig.de
+
+
+# 20_philol.uni-leipzig.de
++.*philol.uni-leipzig.de
+
+
+# 30_theol.uni-leipzig.de
++theol.uni-leipzig.de
+
+
+# 40_math.uni-leipzig.de
+-www.math.uni-leipzig.de/fachschaft/wp-json
+-[?&]print=
+-[?&]sort=
+
+-www.math.uni-leipzig.de/fkc/kalender/action~month
+-www.math.uni-leipzig.de/fkc/kalender/action~week
+-www.math.uni-leipzig.de/fkc/kalender/action~oneday
+
++math.uni-leipzig.de
+
+
+# 60_sportwissenschaftliche_fakultaet
++wwwdup.uni-leipzig.de
++spowi.uni-leipzig.de
+
+
+# 70_medizinische_fakultaet
++medizin.uni-leipzig.de
++imise.uni-leipzig.de
++uniklinikum-leipzig.de/
++mez.uni-leipzig.de
++isap.uniklinikum-leipzig.de
++karl-sudhoff.uni-leipzig.de
++research.uni-leipzig.de
++webmed.uni-leipzig.de
++home.uni-leipzig.de/~allgmed/
++home.uni-leipzig.de/mf-coreunits/
++zks.uni-leipzig.de/
++www.iccas.de/
++ifb-adipositas.de/
++life.uni-leipzig.de/
+
+
+# 80_gko.uni-leipzig.de
+-.*gko.uni-leipzig.de/[0-9][0-9][0-9][0-9]/page/*
+
++.*gko.uni-leipzig.de
+
+
+# 90_physgeo.uni-leipzig.de
++.*physgeo.uni-leipzig.de/
+
+
+# 100_chemie.uni-leipzig.de
++.*chemie.uni-leipzig.de/
+
+
+# 110_vetmed.uni-leipzig.de
++.*vetmed.uni-leipzig.de/
+
+
+# 1000_remaining_stuff
+# For the reamaining: skip URLs containing certain characters as probable queries, etc.
+-[?*!@=]
+
+# For the remaining: skip URLs with slash-delimited segment that repeats 6+ times, to break loops
+-.*(/[^/]+)/[^/]+/[^/]+/[^/]+/[^/]+/[^/]+/[^/]+/[^/]+/[^/]+/
+
++uni-leipzig.de
++www.scads.de

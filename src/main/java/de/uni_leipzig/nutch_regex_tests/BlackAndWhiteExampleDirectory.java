@@ -45,7 +45,7 @@ public class BlackAndWhiteExampleDirectory implements Comparable<BlackAndWhiteEx
 		String tmpContent = null;
 		
 		return exampleDirectory != null && exampleDirectory.isDirectory() && exampleDirectory.listFiles() != null && exampleDirectory.listFiles().length == 3
-				&& (tmpContent = IOUtils.extractContentOfFileWithMatchingName(exampleDirectory.listFiles(), FILE_BLACK)) != null && !tmpContent.trim().isEmpty()
+				&& (tmpContent = IOUtils.extractContentOfFileWithMatchingName(exampleDirectory.listFiles(), FILE_BLACK)) != null
 				&& (tmpContent = IOUtils.extractContentOfFileWithMatchingName(exampleDirectory.listFiles(), FILE_WHITE)) != null && !tmpContent.trim().isEmpty()
 				&& (tmpContent = IOUtils.extractContentOfFileWithMatchingName(exampleDirectory.listFiles(), FILE_REGEX)) != null && !tmpContent.trim().isEmpty();
 	}

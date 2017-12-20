@@ -1,0 +1,8 @@
+# For the reamaining: skip URLs containing certain characters as probable queries, etc.
+-[?*!@=]
+
+# For the remaining: skip URLs with slash-delimited segment that repeats 6+ times, to break loops
+-.*(/[^/]+)/[^/]+/[^/]+/[^/]+/[^/]+/[^/]+/[^/]+/[^/]+/[^/]+/
+
++uni-leipzig.de
++www.scads.de

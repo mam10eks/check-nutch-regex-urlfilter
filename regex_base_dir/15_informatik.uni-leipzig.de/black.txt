@@ -1,4 +1,3 @@
-http://www.nformatik.uni-leipzig.de
 http://corpora.informatik.uni-leipzig.de/de?corpusId=deu_newscrawl_2011
 http://corpora.informatik.uni-leipzig.de/en/res?corpusId=eng-za_web_2014&word=comment
 http://corpora.informatik.uni-leipzig.de/de/res?corpusId=deu_newscrawl_2011&word=ums+Leben
