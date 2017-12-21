@@ -136,5 +136,7 @@
 # For the remaining: skip URLs with slash-delimited segment that repeats 6+ times, to break loops
 -.*(/[^/]+)/[^/]+/[^/]+/[^/]+/[^/]+/[^/]+/[^/]+/[^/]+/[^/]+/
 
+-corpora.uni-leipzig.de
+
 +uni-leipzig.de
 +www.scads.de

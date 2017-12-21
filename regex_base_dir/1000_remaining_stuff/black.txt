@@ -1,4 +1,8 @@
 http://www.uni-leipzig.de?IDontWantToInvestigateQueriesForTheRemaningstuff=21
 https://www.philol.uni-leipzig.de/veranstaltungsreihen/wp-json/
+http://api.corpora.uni-leipzig.de/ws/swagger-ui.html#/available-corpora-service
+http://wod.corpora.uni-leipzig.de/de/de
+http://corpora.uni-leipzig.de/de
+http://wortschatz.uni-leipzig.de/de/download/fra_wikipedia_2007_30K.tar.gz
 
 http://www.uni-leipzig.de/studium/studienorganisation/tan-verfahren/simulate_long_tail/longer/even_longer/now_its/too_long/hsada.html
