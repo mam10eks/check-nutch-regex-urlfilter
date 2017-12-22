@@ -6,3 +6,20 @@ http://corpora.uni-leipzig.de/de
 http://wortschatz.uni-leipzig.de/de/download/fra_wikipedia_2007_30K.tar.gz
 
 http://www.uni-leipzig.de/studium/studienorganisation/tan-verfahren/simulate_long_tail/longer/even_longer/now_its/too_long/hsada.html
+http://se-pubs.dbs.uni-leipzig.de./pubs/results?page=7&order=field_year_value
+http://se-pubs.dbs.uni-leipzig.de./pubs/results/field_year%3A2005
+
+http://mashup.pubs.dbs.uni-leipzig.de/pubs/results/field_year%3A2009
+http://mashup.pubs.dbs.uni-leipzig.de/pubs/results/field_year%3A2009%20taxonomy%3A158
+http://mashup.pubs.dbs.uni-leipzig.de/pubs/results/taxonomy%3A186
+
+http://dc-pubs.dbs.uni-leipzig.de/pubs/results/field_author%3A%22Garcia-Molina%2C%20H%22
+http://dc-pubs.dbs.uni-leipzig.de/pubs/results/taxonomy%3A89
+
+http://cloud.pubs.dbs.uni-leipzig.de/pubs/results/taxonomy%3A357
+http://cloud.pubs.dbs.uni-leipzig.de/pubs/results/taxonomy%3A404
+http://cloud.pubs.dbs.uni-leipzig.de/pubs/results/field_author%3A%22Kolb%2C%20L%22%20taxonomy%3A404
+
+http://pubs.dbs.uni-leipzig.de/aa/aff/#countries
+http://pubs.dbs.uni-leipzig.de/aa/aff/Germany/
+http://pubs.dbs.uni-leipzig.de/aa/by/author/Raghu%20Ramakrishnan/

@@ -130,13 +130,19 @@
 
 
 # 1000_remaining_stuff
-# For the reamaining: skip URLs containing certain characters as probable queries, etc.
--[?*!@=]
-
 # For the remaining: skip URLs with slash-delimited segment that repeats 6+ times, to break loops
 -.*(/[^/]+)/[^/]+/[^/]+/[^/]+/[^/]+/[^/]+/[^/]+/[^/]+/[^/]+/
 
 -corpora.uni-leipzig.de
+
+-/pubs/results/[(field)(taxonomy)]
+
++\?page=[0-9]+$
++http://pubs.dbs.uni-leipzig.de/aa/aff/$
+-http://pubs.dbs.uni-leipzig.de/aa/
+
+# For the reamaining: skip URLs containing certain characters as probable queries, etc.
+-[?*!@=]
 
 +uni-leipzig.de
 +www.scads.de
