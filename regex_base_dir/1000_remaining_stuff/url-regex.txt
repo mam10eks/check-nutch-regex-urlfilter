@@ -3,7 +3,9 @@
 
 -corpora.uni-leipzig.de
 
+-/pubs/[(field)(taxonomy)]
 -/pubs/results/[(field)(taxonomy)]
+-/pubs/facet/[(field)(taxonomy)]
 
 +\?page=[0-9]+$
 +http://pubs.dbs.uni-leipzig.de/aa/aff/$
