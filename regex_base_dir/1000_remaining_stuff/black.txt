@@ -34,3 +34,7 @@ http://se-pubs.dbs.uni-leipzig.de/pubs/results/0%200%200%200%20field_author%3A%2
 http://se-pubs.dbs.uni-leipzig.de/pubs/results/0%200%20taxonomy%3A9.11%20field_citations_range%3A%22n/a%22
 http://se-pubs.dbs.uni-leipzig.de/pubs/results/0%200%200%20taxonomy%3A570.583%20field_citations_range%3A%22%20%20%20%2010%20-%2049%22
 http://se-pubs.dbs.uni-leipzig.de/pubs/results/0%200%200%200%20taxonomy%3A30%2C696
+
+http://se-pubs.dbs.uni-leipzig.de./pubs/results/s%20field_author%3A%22Chien%2C%20S%22%20taxonomy%3A418.651
+http://se-pubs.dbs.uni-leipzig.de./pubs/results/p%20field_author%3A%22Rossi%2C%20D%22%20taxonomy%3A459.462
+http://se-pubs.dbs.uni-leipzig.de./pubs/s%20taxonomy%3A434.443

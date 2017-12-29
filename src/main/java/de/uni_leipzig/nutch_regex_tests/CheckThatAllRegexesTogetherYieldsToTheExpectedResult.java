@@ -42,7 +42,10 @@ public class CheckThatAllRegexesTogetherYieldsToTheExpectedResult
 		List<String> whiteListUrls = extractUrls(exampleDirectory.getContentOfWhiteListFile());
 		
 		Assert.assertNotEquals("White and Blacklist must at least contain one example", 0, whiteListUrls.size());
-		Assert.assertEquals(whiteListUrls, applyUrlFilter(whiteListUrls));
+		List<String> listAfterFiltering = applyUrlFilter(whiteListUrls);
+		Assert.assertEquals("The Following urls are removed, but they are within a whitelist: "+  
+			whiteListUrls.stream().filter(url -> !listAfterFiltering.contains(url)).collect(Collectors.toList())
+			,whiteListUrls, listAfterFiltering);
 	}
 	
 	public void checkThatAllBlacklistUrlsAreFiltered(BlackAndWhiteExampleDirectory exampleDirectory)

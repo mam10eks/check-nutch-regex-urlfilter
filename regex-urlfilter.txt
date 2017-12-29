@@ -135,9 +135,9 @@
 
 -corpora.uni-leipzig.de
 
--/pubs/[0-9%]*[(field)(taxonomy)]
--/pubs/results/[0-9%]*[(field)(taxonomy)]
--/pubs/facet/[0-9%]*[(field)(taxonomy)]
+-/pubs/[a-zA-Z]?[0-9%]*(field|taxonomy)
+-/pubs/results/[a-zA-Z]?[0-9%]*(field|taxonomy)
+-/pubs/facet/[a-zA-Z]?[0-9%]*(field|taxonomy)
 
 +\?page=[0-9]+$
 +http://pubs.dbs.uni-leipzig.de/aa/aff/$
