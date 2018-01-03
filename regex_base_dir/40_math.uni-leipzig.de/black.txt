@@ -7,3 +7,6 @@ http://www.math.uni-leipzig.de/fkc/kalender/action~month/page_offset~1/
 http://www.math.uni-leipzig.de/fkc/kalender/action~week/
 http://www.math.uni-leipzig.de/fkc/kalender/action~oneday/
 http://www.math.uni-leipzig.de/fachschaft/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fwww.math.uni-leipzig.de%2Ffachschaft%2F2009%2F08%2Fstura-wahlpruefsteine-zur-landtagswahl%2F
+http://www.math.uni-leipzig.de/fachschaft/alt/dateien/veranstaltungen/show.php?current=2010&dirname=weihnachtsvorlesung2004
+http://www.math.uni-leipzig.de/fachschaft/alt/dateien/veranstaltungen/show.php?current=1&dirname=weihnachtsvorlesung2004
+http://www.math.uni-leipzig.de/fachschaft/alt/dateien/veranstaltungen/show.php?current=333333&dirname=weihnachtsvorlesung2004

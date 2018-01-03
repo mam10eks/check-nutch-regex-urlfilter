@@ -85,6 +85,7 @@
 -www.math.uni-leipzig.de/fkc/kalender/action~month
 -www.math.uni-leipzig.de/fkc/kalender/action~week
 -www.math.uni-leipzig.de/fkc/kalender/action~oneday
+-www.math.uni-leipzig.de/fachschaft/alt/dateien/veranstaltungen/show.php\?current=[1-9][0-9]*&dirname=weihnachtsvorlesung2004
 
 +math.uni-leipzig.de
 
